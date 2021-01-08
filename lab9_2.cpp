@@ -13,6 +13,7 @@ int main (){
 	string textline;
 	while (getline(source,textline)){
 		cout << textline << '\n';
+		dest << textline << '\n';
 	}
 	dest << "-------------------- HA!! ---------------------";
 
